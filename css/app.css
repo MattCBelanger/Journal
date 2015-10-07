@@ -1,0 +1,102 @@
+body {
+ background-image: url("../imgs/bubble.jpg")!important;
+  font-family: helvetica;
+    
+}
+
+.spacer{
+	height: 300px;
+}
+
+.page-header{
+	position: fixed;
+	background: white;
+	width: 100%;
+	z-index: 5;
+	margin-top: 0;
+	padding-top: 30px;
+
+}
+.sideBar{
+	position: fixed;
+	top:150px;
+	float: left;
+	
+
+}
+
+.mainContent{
+	position: relative;
+	top:230px;
+	
+}
+
+.headerNav{
+	padding: 5px;
+	margin: 0;
+	width:96%;
+
+}
+.navmenu-brand{
+padding: 10px 0 10px;
+margin: 0;
+}	
+
+
+@media (min-width: 1px){
+.navbar-toggle {
+    display: inline !important;
+}}
+
+.navbar-toggle {
+    float: left;
+}
+
+/* gradient content background*/
+.grad {
+	padding: 15px 25px 25px 15px;
+	background: linear-gradient(#0A4CF5, #96E898); /* Standard syntax */
+}
+.contentSize{
+	width:250px;
+	height:100px;
+}
+
+
+.nav{
+	padding-left: 80px;
+	padding-top: 5px;
+}
+
+
+.col-xs-12{
+	padding: 0;
+}
+
+.dateSize{
+	font-size: 1em;
+	float:right;
+	
+}
+.undL{
+	text-decoration: underline;
+}
+
+.masked{
+	
+ font:normal 3em Arial;
+ color:#488743;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+
+}
